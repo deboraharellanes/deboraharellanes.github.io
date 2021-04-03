@@ -1,0 +1,64 @@
+/*Deborah Arellanes 4/2/21*/
+
+@font-face {
+    font-family: After-Shok;
+	src: url(../fonts/After-Shok/After_Shok-webfont.woff);
+}
+
+@font-face {
+    font-family: Train_One;
+    src: url(../fonts/Train_One/TrainOne-Regular.ttf);
+}
+
+h1 {
+    font-family: Train_One, Arial, Sans-serif;
+    font-size: 2em;
+}
+
+h2 {
+	font-family: 'After-Shok';
+	font-weight: normal;
+	font-style: italic;
+}
+
+body {
+	background-color: #B8D1EB;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#outerwrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+	float: left;
+	margin-right: 3%;
+}
+
+.floatright {
+	float: right;
+	margin-left: 3%;
+}
+.color {
+    filter: invert(30%);
+	-webkit-filter: invert(30%);
+}
+
+main {
+	background-color: #C5A98B;
+	padding: 10px;
+}
+
+main, footer { 
+	clear: both;
+}
+
+footer {
+	font-size: .75em;
+	text-align: center;
+	background-color: rgb(88, 55, 5);
+	padding: 10px 0px;
+}
