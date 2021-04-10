@@ -1,0 +1,83 @@
+/*Deborah Arellanes 4-9-21*/	 
+#outerwrapper {	
+
+	background: rgba(243,205,170, 0.4);
+	border-radius: 15%;
+	max-width: 70%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+html {
+	background-image: url('../images/jewelry.jpg');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;
+}
+
+main {
+	background-image: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Arial', 'Tahoma', 'Verdana', sans-serif;
+}
+
+header img {
+	float: left;
+	border-radius: 50%;
+}
+
+.addrightmargin {
+	margin-right: 10%;
+}
+
+nav li, nav ul {
+	list-style: none;
+}
+
+nav li a {
+	font-size: 1.5em;
+}
+
+nav {
+	clear: both;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+}
+
+@font-face {
+    font-family: 'roboto_slabregular';
+
+    src:  url('../fonts/RobotoSlab-Regular-webfont.woff') format('woff');
+ 
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2 {
+	font-family: 'roboto_slabregular';
+	font-style: italic;
+	font-size: 2em;
+	text-align: center;
+}
+footer{
+	font-size: smaller;
+}
+
+
+
+
+
+
