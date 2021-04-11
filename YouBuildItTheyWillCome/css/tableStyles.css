@@ -1,0 +1,41 @@
+/* Deborah Arellanes 4-8-21*/                                     
+
+body {
+    background: radial-gradient(#e66465, #9198e5);               
+}
+
+.tablestyle { 
+   background-color: rgb(182, 231, 233);
+   border: 9px solid #3b8d99;
+   width: 100%;
+   text-align: left;
+   font-size: 20px;
+}
+
+colgroup{
+	background-color: #aca2d1;
+}
+
+table caption {
+    text-align: center;
+	margin: auto;
+	padding: 20px;
+	font-weight: 900;
+	font-size: larger;
+    font-family: 'Arial'; 
+}
+
+thead {
+    
+    background-color: #e792c1;
+    font-weight: 900;  
+}
+tr:nth-child(even) {
+    background: #90acc4;
+
+}
+
+tfoot {
+	text-align: center;
+	background-color: #c079a0;
+}
