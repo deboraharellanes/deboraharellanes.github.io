@@ -1,0 +1,90 @@
+<!--Deborah Arellanes 4/11/21-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords" content="HTML,CSS, JavaScript">
+    <meta name="author" content="Deborah">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/portfolio.css"/> 
+    <link rel="stylesheet" href="css/form.css"/> 
+    <title>Contact</title>    
+</head>
+ <body>
+    <header>
+        <p class="banner"><a href="index.html"><img src="images/sun.png" alt="Sun" width="25" height="25"></a></p>
+        <p class="bottom"></p>
+       <nav>
+            <a href="index.html">Home</a>
+            <img src="images/sun.png" alt="sun" width="20" height="20">
+            <a href="about.html">About</a>
+            <img src="images/sun.png" alt="sun" width="20" height="20">
+            <a href="classes.html">Classes</a>
+            <img src="images/sun.png" alt="sun" width="20" height="20">
+            <a href="contact.html">Contact Me</a>
+         </nav> <img class="recycle" src="images/recycle.png" alt="Recycling" width="85" height="85">
+    </header>
+    <main>
+        <form action="mailto:darellanes@yahoo.com?subject=PersonalPortfolioMail" enctype="text/plain" method="POST">
+            <fieldset>
+                <div class="form_field__wrapper">
+
+                    <label for="company">Company:</label> 
+                    <input type="text" name="compName" size="50" id="company">
+                </div>
+
+                <div class="form_field__wrapper">
+
+                    <label for="contact">Name:</label>
+                    <input type="text" name="contactName" size="30" id="contact" required>
+                </div>
+                
+                <div class="form_field__wrapper">
+                    <label>Email:</label>
+                    <!--<input type="email" name="email" size="30" id="contact" required>-->
+                </div>
+                    
+            <div>
+
+                <p>Preferred time of contact:</p>
+                <input type="radio" id="morning" name="preferred_contact_time" value="morning">
+                <label for="morning">Morning</label>
+                <input type="radio" id="afternoon" name="preferred_contact_time" value="afternoon">
+                <label for="afternoon">Afternoon</label>
+                <input type="radio" id="evening" name="preferred_contact_time" value="evening">
+                <label for="evening">Evening</label>
+                <p></p>
+                <label>Topic of Inquiry:</label>
+            </div>
+            <select>
+                <optgroup label="General Information">
+                    <option value="ChangeAddress">Change Address</option>
+                    <option value="RequestInformation">Request more information</option>
+                </optgroup>
+                <optgroup label="Problems">
+                    <option value="PayBill">Pay Bill</option>
+                    <option value="TechnicalProblems">Technical Problems</option>
+                </optgroup>
+            </select>
+            <p></p>
+            <label>Enter your comments:</label>
+            <textarea  rows="10" name="comment" required></textarea>
+            
+            <input type="submit" id="submit" value="Submit" class="btn">
+        </fieldset>
+        </form>
+       
+    </main>
+<footer>
+    <p id="footer"><a href="mailto:drellanes@yahoo.com">darellanes@yahoo.com</a>&nbsp;
+        <a href="tel:+01-208.284.9057">(208)284-9057</a>&nbsp;&nbsp;&nbsp;<img src="images/sun.png" alt="Sun" width="85" height="85">&nbsp;&nbsp;&nbsp;
+        <a href="https://deboraharellanes.github.io/cwi.portfolio/index.html"><img src="images/github.png" alt="GitHub" width="32" height="32"></a>&nbsp;
+        <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="LinkedIn" width="32" height="32"></a></p>
+        <p class="bottom"></p>
+        <p class="banner"></p> 
+</footer>
+</body>
+</html>
+
