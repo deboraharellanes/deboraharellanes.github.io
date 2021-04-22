@@ -2,7 +2,7 @@ body
 { 
 	background-color: #FFFFFF;
     color: #666666;
-	family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 header 
 { 
@@ -30,6 +30,7 @@ nav a
 nav ul {
 	margin: 0;
 	padding: 0;
+	background-color: #90C7E3;
 }
 nav ul li {
 	list-style: none;
@@ -63,7 +64,7 @@ h2
 h3 
 { 
 	color: #000033;
-    family: Georgia, 'Times New Roman', serif; 
+    font-family: Georgia, 'Times New Roman', serif; 
 }
 
 ul 
@@ -74,9 +75,9 @@ ul
 footer 
 { 
 	font-size: 75%;
-    font-style: bold;
+    font-weight: bold;
 	text-align: center;
-	family: Georgia, 'Times New Roman', serif;
+	font-family: Georgia, 'Times New Roman', serif;
 }
 	   
 dt 
@@ -99,4 +100,76 @@ dt
 	color: #5c7fa3;
 	font-weight: bold;
 
+}
+
+/* make imgs flex at 481px */
+@media screen and (max-width: 641px) {
+	img {
+		width: 100vw;
+	}
+	
+}
+
+/* add linear to footer */
+footer {
+	background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 10%, rgba(0,212,255,1) 100%);
+}
+
+/* mobile styles go here */
+@media (max-width:480px)  {
+	/* nav { 
+		background: red;
+	}
+	
+	* {
+		border: 1px solid black;
+	} */
+
+	img {
+		width: 100%;
+		display: none;
+	}
+
+
+	
+	
+
+	/* make nav > li block */
+	nav ul li {
+		display: block;
+		font-size: 1.7em;
+		background-color: #90C7E3;
+	}
+
+	h2 {
+		display: none;
+	}
+
+}
+
+ 
+
+
+/* tablet styles */
+@media screen and (min-width: 481px) {
+	
+	/* make nav inline for tablet view */
+	nav {
+		display: inline;
+	}
+	
+	
+	/* display h2 on tablet */
+	h2 {
+		display: visible;
+	}
+	
+
+	/* display img on tablet */
+	img {
+		display: block;
+		object-fit: cover;
+		width: 100%;
+	}
+	
 }
