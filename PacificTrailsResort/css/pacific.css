@@ -24,19 +24,29 @@ nav
 nav a 
 { 
 	text-decoration: none; 
+	font-family: sans-serif;
 }
 
 nav ul {
-	list-style-image: url(../images/marker.gif);
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	list-style: none;
+	display: inline;
+    padding: 0 5px 0 0;
 }
 
-nav ul li {
+ul li {
+	list-style-image: url(../images/marker.gif);
 	/* position: relative;
 	float: left;
 	 */
 
 
 }
+
+
 
 h1 
 { 
