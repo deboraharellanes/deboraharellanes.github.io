@@ -54,18 +54,25 @@ img {
  /* responsive mobile styles */
  @media screen and (max-width: 640px) {
     /* display nav as block */
-    nav {
+    nav > * {
         display: block;
     }
 
-    /* remmove background on header */
-    main > img {
+    
+    /* remove background on header */
+    body header {
+        background-image: none;
+    }
+
+    /* remove image */
+    img {
         display: none;
     }
 
     /* set background image on body */
     body {
         background-image: url(../images/yogamobile.png);
+        background-size: cover;
     }
  }
 
