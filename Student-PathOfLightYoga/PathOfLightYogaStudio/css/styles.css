@@ -1,0 +1,87 @@
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.yogabullet {
+    list-style: none;
+}
+
+.yogabullet li{
+    list-style-image: url("../images/yogabullet.png");
+    margin-left: 3em;
+ }
+
+ table.schedule {
+     border-collapse: collapse;
+     border: 1px solid black;
+     width: 100%;
+     margin-bottom: .5em;
+ }
+ 
+ table.schedule td {
+     border: 1px solid black;
+     text-align: center;
+ }
+
+
+ footer {
+     padding: .5em;
+ }
+
+ address {
+    margin-bottom: .5em;
+ }
+
+ nav > ul > li {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+
+/* make images responsive */
+img {
+    object-fit: cover; 
+    width: 100%;
+}
+
+.home_header_img {
+    object-fit: unset;
+    width: unset;
+}
+
+ /* responsive mobile styles */
+ @media screen and (max-width: 640px) {
+    /* display nav as block */
+    nav {
+        display: block;
+    }
+
+    /* remmove background on header */
+    main > img {
+        display: none;
+    }
+
+    /* set background image on body */
+    body {
+        background-image: url(../images/yogamobile.png);
+    }
+ }
+
+/* responsive tablet styles */
+ @media screen and (min-width: 641px) {
+     /* display nav as inline */
+     nav li {
+         display: inline;
+     }
+
+     /* set body background */
+     body {
+         background-color: #F5F5F5;
+     }
+
+     img {
+         object-fit: contain;
+     }
+ }
