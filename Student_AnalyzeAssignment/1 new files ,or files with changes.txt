@@ -1,0 +1,13 @@
+1 new files ,or files with changes
+2 add to staging
+3 make commit , with commit msg
+4 push 
+
+
+
+local
+===========8
+
+
+gh
+============o
