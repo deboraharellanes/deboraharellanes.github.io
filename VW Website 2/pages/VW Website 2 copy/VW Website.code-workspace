@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "bootstrap_files"
+		},
+		{
+			"path": "pages"
+		},
+		{
+			"path": "images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pages"
+	}
+}
