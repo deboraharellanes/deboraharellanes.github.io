@@ -5,9 +5,32 @@
   display: block;
 }
 
-img {
+/* img {
   transition: transform 2s  ease-in;
 }
 .wrapper:hover img {
   transform: translateX(80vw);
+} */
+
+/* circle */
+.circle {
+  width: 100px;
+  padding: 50px 0;
+  line-height: 0;
+  margin: 60px auto;
+  background-color: pink;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 1s, transform 1s 1s ease;
+}
+
+.circle:hover {
+  background-color: salmon;
+  transform: rotate(360deg);
+} 
+
+body {
+  background-color: lightblue;
+  text-align: center;
 }
