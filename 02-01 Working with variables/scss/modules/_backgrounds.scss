@@ -26,7 +26,7 @@
 }
 
 .jumbotron {
-    @include backImage('./../images/water.jpg',600px);
+    @include backImage('./../images/water.jpg',600px, center center, 0);
 }
 
 .bridge {
