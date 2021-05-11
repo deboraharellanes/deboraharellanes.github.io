@@ -363,7 +363,32 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Bree serif", Helvitica, sans-serif;
+  color: #0076A3, #6d73c2, #548c27, #d14348, #f49856, #FFBA00;
+}
+
+/* list headline colors*/
+h1 {
+  color: #0076A3;
+}
+
+h2 {
+  color: #6d73c2;
+}
+
+h3 {
+  color: #548c27;
+}
+
+h4 {
   color: #d14348;
+}
+
+h5 {
+  color: #f49856;
+}
+
+h6 {
+  color: #FFBA00;
 }
 
 .btn-default, .btn-hot, .btn-cool {
