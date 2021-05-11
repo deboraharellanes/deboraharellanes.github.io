@@ -365,6 +365,35 @@ h1, h2, h3, h4, h5, h6 {
   color: #d14348;
 }
 
+.btn-default, .btn-hot, .btn-cool {
+  display: inline-block;
+  padding: 6px 12px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-family: "Bree serif", Helvitica, sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #EEE8D6;
+}
+
+.btn-default {
+  background: #022933;
+}
+
+.btn-hot {
+  background: #d14348;
+}
+
+.btn-cool {
+  background: #0076A3;
+}
+
 .background {
   color: #EEE8D6;
   margin: 20px 0;
