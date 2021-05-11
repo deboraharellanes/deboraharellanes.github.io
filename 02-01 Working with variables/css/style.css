@@ -446,9 +446,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .media .item {
+  padding-bottom: 10px;
+  padding-left: 10px;
   margin-bottom: 20px;
   border-top: 1px dotted #d14348;
   padding-top: 10px;
+}
+
+.media .item:hover {
+  background: #FFBA00;
+}
+
+.media .item:last-of-type {
+  border-bottom: 1px dotted #d14348;
+}
+
+.media .item:before, .media .item:after {
+  content: ' ';
+  display: table;
+}
+
+.media .item::after {
+  clear: both;
 }
 
 .media .head {
@@ -456,6 +475,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   color: #0076A3;
   font-size: 2rem;
+}
+
+#typography .media .head {
+  color: #d14348;
 }
 
 .media p {
