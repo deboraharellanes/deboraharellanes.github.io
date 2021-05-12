@@ -1,90 +1,120 @@
-        h1 {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+h1 {
         text-align: center;
-        }
+}
 
 
-        #about-the-author ul {
+#about-the-author ul {
         list-style: none;
-        }
+}
 
-        #about-the-author {
+#about-the-author {
         border: solid;
         margin: auto;
         width: 450px;
-        }
+}
 
-        .name {
+.name {
         font-weight: bold;
-        }
+}
 
-        .MikeMathison img {
+.MikeMathison img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        }
+}
 
-        .MikeMathison figcaption {
+.MikeMathison figcaption {
         text-align: center;
-        }
+}
 
-        #CenterImage {
+#CenterImage {
         margin-top: 10px;
         margin-bottom: 20px;
         border-bottom: 3px solid black;
         padding-bottom: 20px;
-        }
+}
 
-        #CarImagesTable {
+#CarImagesTable {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 40px;
-        }
+}
 
-        #CarImagesTable td {
+#CarImagesTable td {
         padding-top: 5px;
         padding-left: 20px;
-        }
+}
 
-        footer {
+footer {
         margin-bottom: 10px;
-        }
+}
 
-        /*p {
-        font-family: "Times New Roman", Times, serif;
-        }
+p {
+        font-family: "Montserrat", Helvitica, sans-serif;
+}
 
-        li {
-        font-family: "Times New Roman", Times, serif;
-        }
+li {
+        font-family: "Montserrat", Helvitica, sans-serif;
+}
 
-        figcaption {
-        font-family: "Times New Roman", Times, serif;
-        }*/
+figcaption {
+        font-family: "Montserrat", Helvitica, sans-serif;
+}
 
-        .employment-status {
-        font-family: "Arial", Arial, sans-serif;
-        }
+.employment-status {
+        font-family: "Montserrat", Helvetica, sans-serif;
+}
 
 
-        img.center {
+img.center {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        } 
+} 
 
-        h6 {
-
+h6 {
+        
         text-align: center;
+        
+}
 
-        }
-
-        i {
+i {
         font-style: italic;
-        }
+}
 
-        main {
-         margin-left: 20px;
-        }
-        .fourstroke {
-                margin-left:2%;
-        }
+main {
+        margin-left: 20px;
+}
+.fourstroke {
+        margin-left:2%;
+}
+
+/* hide last 2 nav items */
+.nav-item:nth-child(7), form.d-flex {
+        display: none !important;
+}
+
+body > nav.navbar, body > header > nav.navbar {
+        --nav-padding-y: 30px;
+        padding-top: var(--nav-padding-y);
+        padding-bottom:  var(--nav-padding-y);
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+}
+
+.navbar-brand {
+        /* background: url(https://cdn.worldvectorlogo.com/logos/volkswagen-1.svg); */
+        background: url(images/logo/beetle.png);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+}
+
+.navbar-brand > .brand-text {
+        display: invisible;
+        opacity: 0%;
+}

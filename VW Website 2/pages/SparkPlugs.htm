@@ -2,50 +2,88 @@
  <html lang="en-us">
   <head>
    <meta charset=utf-8>
-    <title>Spark Plugs</title>
-    <link rel="stylesheet" href="../style.css"> 
-    <link rel="stylesheet" href="../bootstrap_files/bootstrap.min.css"/>
-     <script src="../bootstrap_files/jquery.min.js"></script>
-     <script src="../bootstrap_files/bootstrap.min.js"></script>
-  </head>
+   
+   
+   <title>Vintage VW Maintenance  |  Spark Plugs</title>  
+   <meta name="description" content="cars, repairs,vintage,engine,body work,vw, volks-wagon, volks wagon">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- bootstrap links -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+   <!-- custom styles -->
+   <link rel="stylesheet" href="../style.css"> 
+
+
+</head>
    <body>
     <header>
      <h1>Spark Plugs</h1>
     </header>
-    <nav class="navbar navbar-inverse">
-     <div class="container-fluid">
-      <div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="index.htm">Home</a></li>
-          <li><a href="FourStrokeEngine.htm" target="_blank">Four Stroke Engine</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tune up<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="TuneUp.htm" >About</a></li>
-              <li><a href="Oilchange.htm" >Oil Change</a></li>
-              <li><a href="Valveadjustment.htm" >Valve Adjustment</a></li>
-              <li><a href="FanBeltTension.htm" >Fan Belt Tension</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span class="brand-text">VW</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.htm">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="FourStrokeEngine.htm">Four Stroke Engine</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tune Up
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="TuneUp.htm" >About</a></li>
+                <li><a class="dropdown-item" href="Oilchange.htm" >Oil Change</a></li>
+                <li><a class="dropdown-item" href="Valveadjustment.htm" >Valve Adjustment</a></li>
+                <li><a class="dropdown-item" href="SparkPlugs.htm" >Spark Plugs</a></li>
+                <li><a class="dropdown-item" href="FanBeltTension.htm" >Fan Belt Tension</a></li>
               </ul>
-          </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Maintenance<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="CoolingSystem.htm" >Cooling System</a></li>
-              <li><a href="ElectricalandMechanicalChecks.htm" >Electrical &amp; Mechanical</a></li>
-              <li><a href="Distributormaintenance.htm" >Distributor Maintenance</a></li>
-              <li><a href="Carburetoradjustment.htm" >Carburetor Adjustment</a></li>
-            </ul>
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Engine Rebuild<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="EngineRemoval.htm" >Engine Removal</a></li>
-              <li><a href="EngineDisassembly.htm" >Engine Disassembly</a></li>
-              <li><a href="CrankcaseDisassembly.htm" >Crankcase Disassembly</a></li>
-              <li><a href="EngineInstallation.htm" >Engine Installation</a></li>
-            </ul>
-            <li><a href="References.htm" >References</a></li>
-           </ul>
-          </li>
-         </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Maintenance
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="CoolingSystem.htm" >Cooling System</a></li>
+                <li><a class="dropdown-item" href="ElectricalandMechanicalChecks.htm" >Electrical &amp; Mechanical</a></li>
+                <li><a class="dropdown-item" href="Distributormaintenance.htm" >Distributor Maintenance</a></li>
+                <li><a class="dropdown-item" href="Carburetoradjustment.htm" >Carburetor Adjustment</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Engine Rebuild
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="EngineRemoval.htm" >Engine Removal</a></li>
+                <li><a class="dropdown-item" href="EngineDisassembly.htm" >Engine Disassembly</a></li>
+                <li><a class="dropdown-item" href="CrankcaseDisassembly.htm" >Crankcase Disassembly</a></li>
+                <li><a class="dropdown-item" href="EngineInstallation.htm" >Engine Installation</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="References.htm">References</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
+    
       <main>
       <h3 style="margin-left:2%"> Spark Plug Electrodes</h3>
       <p style="margin-left:2%;"> Clean and gap the spark plugs at 6,000 miles and replace them at 12,000 miles. Gap between .024&quot; and .028&quot;. Spark plugs have 14mm thread and a heat range of 145&deg;.</p>
@@ -99,7 +137,39 @@
     <li>Spark plugs or the piston rings are failing</li>
    </ul>
   </main>
- </body>
+   <footer>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-lg-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="https://twitter.com"><i class="bi bi-twitter fs-1"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://github.com"><i class="bi bi-github fs-1"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://facebook.com"><i class="bi bi-facebook fs-1"></i></a>
+              </li>              
+            
+          </div>
+
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <p class="heading text-white mx-auto">&copy; 2021, All rights reserved</p>
+          </div>
+
+        </div>
+      </nav>
+      
+     </footer>
+
+     
+    </body>
 </html>
 
   
