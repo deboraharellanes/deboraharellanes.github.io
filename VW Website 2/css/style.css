@@ -63,7 +63,7 @@ font-family: "Architects Daughter", Helvetica, sans-serif;
 }
 
 .navbar-brand {
-        background: url(images/logo/red.bus.png);
+        background: url(../images/logo/red.bus.png);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
