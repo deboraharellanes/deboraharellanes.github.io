@@ -78,13 +78,17 @@ font-family: "Architects Daughter", Helvetica, sans-serif;
 
 .CarImagesTable img {
         object-fit: contain;
-        width:100%;
+        width: auto;
+        height: 210px;
 }
 
 .CarImagesTable figure {
         width: 100%;
 }
 
+.notch-back-center {
+        transform: translateX(calc((100% - 269px)/4));
+}
 .CarImagesTable {
         width:80vw;
 }
